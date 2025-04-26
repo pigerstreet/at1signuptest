@@ -1,0 +1,22 @@
+components:
+- layout_properties:
+    col_widths: {}
+    grid_position: YNYMAK,MFNRBE
+  name: label_1
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Enter your email address:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: close_alert}
+  layout_properties:
+    col_widths: {}
+    grid_position: FPJLEP,BNCRQY
+  name: email_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: false, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: HAGMSF,HNLWAS
+  name: label_2
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 12, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: We will send you an email link to reset your password., underline: false, visible: true, width: default}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true
