@@ -1,0 +1,41 @@
+components:
+- components:
+  - components:
+    - event_bindings: {click: login_btn_click}
+      layout_properties: {grid_position: 'UOONXS,ARVVCD'}
+      name: login_btn
+      properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: Log In, tooltip: '', underline: false, visible: true}
+      type: Button
+    - event_bindings: {click: signup_btn_click}
+      layout_properties: {grid_position: 'GUQMCR,DLOARL'}
+      name: signup_btn
+      properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: Sign up for a new account, tooltip: '', underline: false, visible: true}
+      type: Button
+    - layout_properties: {grid_position: 'XUHZOU,IQDLZS'}
+      name: login_status_lbl
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: true}
+      type: Label
+    - event_bindings: {click: logout_btn_click}
+      layout_properties: {grid_position: 'ZOOMTQ,BRVHJE'}
+      name: logout_btn
+      properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: secondary-color, spacing_above: small, spacing_below: small, text: Log Out, tooltip: '', underline: false, visible: true}
+      type: Button
+    layout_properties:
+      col_widths: {}
+      grid_position: RTEKWZ,SERRWS
+    name: column_panel_1
+    properties: {col_widths: '{}'}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+container:
+  event_bindings: {}
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
