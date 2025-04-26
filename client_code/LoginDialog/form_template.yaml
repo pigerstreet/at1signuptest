@@ -1,0 +1,49 @@
+components:
+- layout_properties:
+    col_widths: {}
+    grid_position: YFVGVG,XLPNIB
+  name: label_3
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Email address:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: focus_password}
+  layout_properties:
+    col_widths: {}
+    grid_position: VLUHKD,JYWLTL
+  name: email_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: false, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- event_bindings: {click: confirm_lnk_click}
+  layout_properties:
+    col_widths: {}
+    grid_position: GIIEKZ,TDXXDK
+  name: confirm_lnk
+  properties: {align: left, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: red, icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: You need to check your email and click the link to confirm your email address. Click here to re-send the confirmation email., tooltip: '', underline: false, url: '', visible: false, wrap_on: mobile}
+  type: Link
+- layout_properties:
+    col_widths: {}
+    grid_position: BAAUHT,QWHGPX
+  name: label_4
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Password:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: close_alert}
+  layout_properties:
+    col_widths: {}
+    grid_position: MPJGUA,LPBFHE
+  name: password_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: true, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: ECBTSO,DPHKDD
+  name: login_err_lbl
+  properties: {align: left, background: '', bold: true, border: '', font: '', font_size: null, foreground: '#dd0000', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', underline: false, visible: false, width: default}
+  type: Label
+- event_bindings: {click: reset_pw_link_click}
+  layout_properties:
+    col_widths: {}
+    grid_position: PZNSIA,TFTABQ
+  name: reset_pw_link
+  properties: {align: left, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: red, icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'Forgotten your password?', tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
+  type: Link
+container: {type: ColumnPanel}
+is_package: true
