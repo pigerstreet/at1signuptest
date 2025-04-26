@@ -1,0 +1,61 @@
+components:
+- layout_properties:
+    col_widths: {}
+    grid_position: ALHCVJ,CPNTVS
+  name: label_1
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Your name:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: focus_email}
+  layout_properties:
+    col_widths: {}
+    grid_position: OLVQUY,UAOPKM
+  name: name_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: false, italic: false, placeholder: Enter your name, role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: NMIAMN,SFFOPJ
+  name: label_3
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Email address:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: focus_password}
+  layout_properties:
+    col_widths: {}
+    grid_position: URBQEC,NCEYWG
+  name: email_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: false, italic: false, placeholder: email@address.com, role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: VBITVZ,TJONXH
+  name: label_4
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Password:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: focus_password_repeat}
+  layout_properties:
+    col_widths: {}
+    grid_position: UYXHSD,JEHAPE
+  name: password_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: true, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: CVJNJV,RVRIVG
+  name: label_4_copy
+  properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 'Re-enter password:', underline: false, visible: true, width: default}
+  type: Label
+- event_bindings: {pressed_enter: close_alert}
+  layout_properties:
+    col_widths: {}
+    grid_position: VGEYVU,POMBNU
+  name: password_repeat_box
+  properties: {align: left, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', hide_text: true, italic: false, placeholder: '', role: null, spacing_above: none, spacing_below: small, text: '', type: text, underline: false, visible: true, width: default}
+  type: TextBox
+- layout_properties:
+    col_widths: {}
+    grid_position: UKJSMH,QEFRXM
+  name: signup_err_lbl
+  properties: {align: left, background: '', bold: true, border: '', font: '', font_size: null, foreground: red, icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: '', tooltip: '', underline: false, visible: false}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true
